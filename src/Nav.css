@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+}
+
+.mobile-img {
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-links {
+    display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobile-img {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1em;
+        list-style: none;
+    }
+
+    a {
+        color: #000000;
+    }
+}
