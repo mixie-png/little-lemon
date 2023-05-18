@@ -1,8 +1,14 @@
-import './BookingPage.css';
+import Nav from './Nav.js';
+import BookingForm from './BookingForm.js'
 
-function BookingPage() {
+function BookingPage({ availableTimes, setAvailableTimes, selectedDate, setSelectedDate, submitForm}) {
     return (
-        <h1>Reserve a Table</h1>
+        <>
+            <Nav></Nav>
+            <h1>Reserve A Table</h1>
+            <BookingForm availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} selectedDate={selectedDate}
+              setSelectedDate={setSelectedDate} submitForm={submitForm}/>
+        </>
     )
 }
 

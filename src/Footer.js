@@ -27,7 +27,7 @@ function Footer() {
               <img src="assets/icons8-tiktok-30.png" alt="Tiktok icon"/>
             </ul>
           </div>
-          <p class="copyright">
+          <p className="copyright">
             © Copyright 2023 Little Lemon. All rights reserved.
           </p>
         </footer>
